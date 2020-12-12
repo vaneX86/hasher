@@ -1,0 +1,36 @@
+{
+  "name": "hasher",
+  "version": "1.0.0",
+  "description": "Hasher - The useless Discord Bot",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaneX86/hasher.git"
+  },
+  "keywords": [
+    "discord",
+    "hasher",
+    "hash",
+    "discord.js",
+    "discord-bot",
+    "discord-server",
+    "discord-dev"
+  ],
+  "author": "vaneX86",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/vaneX86/hasher/issues"
+  },
+  "homepage": "https://github.com/vaneX86/hasher#readme",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "moment": "^2.29.1",
+    "nodemon": "^2.0.6"
+  }
+}
