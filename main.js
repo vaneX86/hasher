@@ -40,19 +40,3 @@ client.on('message', message =>{
 });
 
 client.login(token);
-
-
-/*
-const list = [
-    "SteamEX ver 11.29", 
-    "Default prefix is: -",
-    "Command: -help"
-];
-client.on("ready", () => {
-    update();
-    setInterval(() => {
-        const index = Math.floor(Math.random() * (list.length - 1) + 1);
-        client.user.setActivity(list[index], { type: 'STREAMING', url: 'https://twitch.tv/Xayoo' });
-    }, 60000);
-});
-*/
