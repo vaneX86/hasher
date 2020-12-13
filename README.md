@@ -1,4 +1,4 @@
-# Hasher ver 1.0.0
+# Hasher ver 1.0.1
 
 A hasher is a discord bot that allows you to hash the text. 
 I wrote this bot in my free time when I was bored.
