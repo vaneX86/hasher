@@ -31,7 +31,7 @@ client.on('message', message =>{
     var command = args.shift().toLowerCase();
     
     if (command === 'help') {
-        client.commands.get('help').execute(message, Discord, client);
+        client.commands.get('help').execute(message, Discord, client, prefix);
     } else if (command === 'hash') {
         client.commands.get('hash').execute(message, args, Discord, prefix);
     } else if (command === 'github') {
